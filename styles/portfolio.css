@@ -6,23 +6,43 @@ body {
     font-style: normal;
 }
 
+.p-button {
+    border-radius: 5px;
+    background: #FD6E0A;
+    height: 64px;
+    color: #FFF;
+    font-size: 20px;
+
+}
+
 /* nav related styles */
 nav {
     display: flex;
+
+    /* for navigation allignment */
+    justify-content: space-between;
+
+    /* to take Heading and page name in a line*/
+    align-items: center;
 }
 
 nav>ul {
     display: flex;
-    
+
+    /* To take page name and button in a line */
+    align-items: center;
+
 }
 
 nav li {
     list-style: none;
     margin-right: 50px;
+    align-items: center;
 }
 
 nav a {
     text-decoration: none;
+    color: #474747;
 }
 
 .nav-heading {
@@ -30,4 +50,7 @@ nav a {
     font-size: 45px;
     font-weight: 800;
 }
-.orange{ color: #FD6E0A;}
+
+.orange {
+    color: #FD6E0A;
+}
