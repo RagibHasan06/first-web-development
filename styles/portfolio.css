@@ -207,10 +207,10 @@ nav a {
 /* Footer section */
 .footer {
     display: flex;
-    gap: 113px;
+    gap: 100px;
     background-color: #FFF8F3;
     margin-top: 113px;
-    padding: 130px 180px;
+    padding: 120px 140px 120px 150px;
 }
 
 .footer-col {
@@ -237,6 +237,7 @@ textarea {
     font-weight: 400;
     line-height: 28px;
     padding-left: 30px;
+    border: 0px;
 }
 
 .text {
@@ -248,6 +249,7 @@ textarea {
     line-height: 28px;
     padding-left: 30px;
     padding-top: 18px;
+    border: 0px;
 }
 
 .fsection-title {
@@ -261,4 +263,8 @@ textarea {
     font-size: 16px;
     font-weight: 400;
     line-height: 28px; 
+}
+.social-links > img {
+    margin-right: 24px;
+    padding-top: 30px;
 }
