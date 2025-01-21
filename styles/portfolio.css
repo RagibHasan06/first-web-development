@@ -250,6 +250,7 @@ textarea {
     padding-left: 30px;
     padding-top: 18px;
     border: 0px;
+    border-radius: 5px;
 }
 
 .fsection-title {
