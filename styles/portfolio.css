@@ -180,26 +180,85 @@ nav a {
     color: #474747;
     font-size: 30px;
     font-weight: 700;
-   
+
 }
 
 .exp-title {
     color: #474747;
     font-size: 25px;
     font-weight: 700;
-   
+
 }
 
 .sub-title {
     color: #757575;
     font-size: 20px;
     font-weight: 600;
-   
+
 }
 
 .exp-des {
-    color:#757575;
+    color: #757575;
     font-size: 16px;
     font-weight: 400;
     line-height: 28px;
+}
+
+/* Footer section */
+.footer {
+    display: flex;
+    gap: 113px;
+    background-color: #FFF8F3;
+    margin-top: 113px;
+    padding: 130px 180px;
+}
+
+.footer-col {
+    width: 50%;
+}
+
+.text {
+    width: 461px;
+    height: 180px;
+}
+
+.form input,
+textarea {
+    display: block;
+    margin-bottom: 24px;
+}
+
+.ph {
+    width: 461px;
+    height: 64px;
+    border-radius: 5px;
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    padding-left: 30px;
+}
+
+.text {
+    color: #757575;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    padding-left: 30px;
+    padding-top: 18px;
+}
+
+.fsection-title {
+    color: #181818;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.sec-des {
+    color: #474747;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px; 
 }
