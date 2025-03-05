@@ -60,26 +60,22 @@ nav {
 
     /* to take Heading and page name in a line*/
     align-items: center;
-    padding: 0px 150px;
-}
+    padding: 0px 150px;}
 
 nav>ul {
     display: flex;
 
     /* To take page name and button in a line */
-    align-items: center;
-}
+    align-items: center;}
 
 nav li {
     list-style: none;
     margin-right: 50px;
-    align-items: center;
-}
+    align-items: center;}
 
 nav a {
     text-decoration: none;
-    color: #474747;
-}
+    color: #474747;}
 
 .nav-heading {
     color: #181818;
@@ -92,10 +88,7 @@ nav a {
     background-color: #FFF8F3;
     background-image: url(../images/developer.png);
     background-repeat: no-repeat;
-    background-position: center left;
-
-
-}
+    background-position: center left;}
 
 .banner {
     padding: 0px 30px 0px 150px;
@@ -103,15 +96,11 @@ nav a {
     justify-content: space-between;
     background-image: url(../images/header_bg.png);
     background-repeat: no-repeat;
-    background-position: bottom right;
-    height: ;
-
-}
+    background-position: bottom right;}
 
 .image {
     max-width: 584px;
-    max-height: 676px;
-}
+    max-height: 676px;}
 
 .b-greeting {
     color: #474747;
@@ -222,8 +211,7 @@ nav a {
     height: 180px;
 }
 
-.form input,
-textarea {
+.form input, textarea {
     display: block;
     margin-bottom: 24px;
 }
@@ -268,4 +256,27 @@ textarea {
 .social-links > img {
     margin-right: 24px;
     padding-top: 30px;
+}
+
+/* Media Query Section */
+
+@media screen and (max-width: 576px) {
+    .skill-items, .about-items, nav, .resume-cont, .footer {flex-direction: column;}
+    .footer-col{width: 100%;}
+    .footer, .about, .section-des, .banner {padding: 20px;}
+    .form input, .text {width: calc(100% - 40px);} 
+    .banner { flex-direction: column;
+                padding-bottom: 0px;}
+    .image{width: 100%;}
+    .p-button{ margin-bottom: 10px;}
+    .header{background-image: none;}
+    
+
+    
+}
+@media screen and (min-width: 576px) and (max-width: 992px) {
+    .skill-items, .about-items, nav, .banner, .resume-cont, .footer {flex-direction: column;}
+    .footer-col{width: 100%;}
+    .footer{padding: 20px;}
+    .form input, .text {width: calc(100% - 40px);} 
 }
